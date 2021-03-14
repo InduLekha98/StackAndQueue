@@ -1,10 +1,9 @@
-
 import linkedlist.*;
 
-public class Stack<K> {
+public class Queue<K> {
     private final LinkedList<K> linkedlist;
 
-    public Stack() {
+    public Queue() {
         linkedlist = new LinkedList<>();
     }
 
@@ -20,7 +19,6 @@ public class Stack<K> {
         return linkedlist.pop();
     }
 
-    public void printStack() {
+    public void printQueue() {
         linkedlist.printNodes();
     }
-}
