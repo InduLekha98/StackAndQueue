@@ -1,6 +1,7 @@
+
 import linkedlist.*;
 
-public class Queue<K> {
+public class Queue <K> {
     private final LinkedList<K> linkedlist;
 
     public Queue() {
@@ -22,3 +23,4 @@ public class Queue<K> {
     public void printQueue() {
         linkedlist.printNodes();
     }
+}
